@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Friends Data</title>
+  </head>
+  <body>
+    {%PAGE_TEMPLATE%}
+  </body>
+
+  <style>
+    body {
+      background: linear-gradient(
+        to bottom right,
+        rgb(68, 233, 27),
+        rgb(7, 196, 101),
+        rgb(23, 233, 222)
+      );
+      height: 100%;
+      /* margin: 0; */
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    .friends-info-container {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      height: 420px;
+      width: 350px;
+      border-radius: 10px;
+      background: linear-gradient(
+        to bottom right,
+        rgb(238, 61, 61),
+        rgb(125, 60, 230),
+        rgb(27, 163, 226)
+      );
+    }
+
+    .data-box {
+      background: linear-gradient(
+        to bottom right,
+        rgb(68, 233, 27),
+        rgb(7, 196, 101),
+        rgb(23, 233, 222)
+      );
+      border-radius: 5px;
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 15px;
+      font-size: 18px;
+      height: 30%;
+      width: 80%;
+      display: flexbox;
+    }
+
+    label {
+      font-weight: bolder;
+      margin-right: 5px;
+    }
+
+    .full-name {
+      position: absolute;
+      font-size: 25px;
+      top: 15%;
+      left: 50%;
+      background: linear-gradient(
+        to bottom right,
+        rgb(68, 233, 27),
+        rgb(7, 196, 101),
+        rgb(23, 233, 222)
+      );
+      text-align: center;
+      transform: translateX(-50%);
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    .box-heading {
+      background: linear-gradient(to bottom right, #66ff66 9%, #ffcc66 79%);
+      text-align: center;
+      margin-top: 0%;
+      border-radius: 10px;
+    }
+  </style>
+</html>

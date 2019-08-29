@@ -1,0 +1,29 @@
+[
+  {
+    "fname": "Mahendra",
+    "lname": "Bhanage",
+    "tel": "9359200371",
+    "address": "wadgaon sheri",
+    "city": "pune",
+    "state": "Maharashtra",
+    "college": "MMIT"
+  },
+  {
+    "fname": "Rushikesh",
+    "lname": "Deshmukh",
+    "tel": "9689896827",
+    "address": "wadgaon sheri",
+    "city": "pune",
+    "state": "Maharashtra",
+    "college": "MMIT"
+  },
+  {
+    "fname": "Krushna",
+    "lname": "Yadav",
+    "tel": "0000000000",
+    "address": "Universe",
+    "city": "Dwaraka",
+    "state": "Utar Pradesh",
+    "college": "Universe"
+  }
+]
